@@ -227,7 +227,7 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 
 - [LINQ to SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/) **is depreciated**
 - [OLE DB](https://en.wikipedia.org/wiki/OLE_DB) - :green_heart: - Again just read and understand
-- [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) :yellow_heart:
+- [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) :heart:
 - [Dapper](https://github.com/DapperLib/Dapper) :heart:
 - [Entity Framework](https://docs.microsoft.com/en-us/aspnet/entity-framework) :heart:
 
