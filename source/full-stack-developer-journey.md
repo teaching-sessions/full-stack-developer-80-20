@@ -113,9 +113,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 ### Java
 
-<!-- Sam add Java Environment/Project needs here -->
-<!-- To Add -->
-<!-- Maven, Gradle, Ant, Build Tools? -->
 - IDE
   - [Intellij IDEA](https://www.jetbrains.com/idea/) - Both the CE and Ultimate are very good
   - [Eclipse](https://www.eclipse.org/downloads/packages/)
@@ -142,7 +139,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 #### Java Back-End Based
 
-<!-- Sam add Java Linters/Formatters here -->
 - Checkstyle
   - [Maven Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
   - [Gradle Plugin](https://docs.gradle.org/current/userguide/checkstyle_plugin.html)
@@ -174,8 +170,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 #### Java Testing
 
-<!-- Sam add Java Testing Frameworks/Libraries here-->
-<!-- JUnit, Mockito??? -->
 - [JUnit](https://junit.org/junit5/)
 - [Mockito](https://site.mockito.org/) - Allows BDD (*given, when, then* style of testing)
 - [AssertJ](https://joel-costigliola.github.io/assertj/) - Provides easy to use and readable assertions with more functionality than JUnit assertions
@@ -272,7 +266,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 ### Java Front-End
 
-<!-- Sam insert in here-->
 - [Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html) - MVC
 - [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) - Reactive web apps  
 - [Thymeleaf](https://www.thymeleaf.org/) - Server-side rendered templates
@@ -301,8 +294,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 ### Java Data Access
 
-<!-- Sam add Java Data Access here-->
-<!-- OracleDB? Hibernate, Java Data Access Tools -->
 - [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) - Requires you to manually translate from code to relational tables and back again. More "low-level" than JPA.
 - [JPA](https://en.wikipedia.org/wiki/Jakarta_Persistence) - Unlike JDBC, you define your persistence rules in the realm of Java code and objects and therefore don't have to "think relationally".  
 Some popular JPA implementations:
@@ -426,7 +417,6 @@ Six Services to start out with:
 
 ### AWS
 
-<!-- Sam maybe add?-->
 AWS offers over 200 services. Some popular services to start out with:
 - [Amazon EC2 (Elastic Compute Cloud)](https://aws.amazon.com/ec2/) - Scalable compute platform
 - [RDS (Relational Database Service)](https://aws.amazon.com/rds/) - Managed RDBMS service
@@ -449,7 +439,6 @@ AWS offers over 200 services. Some popular services to start out with:
 
 ### Java Libraries
 
-<!-- Sam add recommended/highly useful libraries here -->
 - All libraries mentioned under [Java Testing](#java-testing)
 - [Apache Commons](https://commons.apache.org/) - A Swiss Army Knife. Extends many of the core libraries.
 - [Guava](https://github.com/google/guava) - Google library that adds new collection types, utilities for concurrency, graph library, functional programming, and much more.
@@ -472,7 +461,6 @@ AWS offers over 200 services. Some popular services to start out with:
 
 ### Java
 
-<!-- Sam add any Java books here -->
 - [Spring in Action](https://www.manning.com/books/spring-in-action-sixth-edition)
 
 ### DDD Books
