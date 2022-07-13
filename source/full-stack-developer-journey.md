@@ -16,21 +16,21 @@ Everything in this talk is "personal opinion", please don't take it as an absolu
 
 Lists are in order:
 
-:blue_heart: - Computer Science concept
-:green_heart: - Language Paradigm
-:yellow_heart: - Pattern
+:blue_heart: - Computer Science concept/foundational
+:green_heart: - Language Paradigm/entry
+:yellow_heart: - Pattern/intermediate
 :heart: - Library/Framework
 :black_heart: - Key Concept
 
 Think of the topics given to you today as a 1, 3, 5, 10 year plan. Don't get overwhelmed.
 
-## Knowing vs Knowing
+## Knowing vs "Knowing"
 
 When have I reached the point when I am competent in a subject/topic?
 
 When you can explain/teach it to someone else without outside help.
 
-## 10 Commandments for any Developer
+## 10 Commandments for any Developer, Number 8 Will Shock you
 
 1. Keep learning
 2. Keep re-learning, you will forget
@@ -49,7 +49,9 @@ Gaining knowledge in one area/concept will further your knowledge in another.
 
 Getting better at OOP will help your functional skills and visa versa.
 
-## Why should I care about CS?
+## Computer Science, the Good Part
+
+### Why should I care about CS?
 
 Computer Science is the foundation for everything we do.
 
@@ -104,6 +106,8 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 ### Java
 
 <!-- Sam add Java Environment/Project needs here -->
+<!-- To Add -->
+<!-- Maven, Gradle, Ant, Build Tools? -->
 
 ### Linters & Formatters
 
@@ -129,17 +133,21 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 - You can't automate 100%
 - Every logical branch requires a test :black_heart:
 - Focus on Unit/Integration tests
-  
+
 #### .NET Testing
 
 - Choose one of the following [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest) or [NUnit](https://nunit.org/) or [XUnit](https://xunit.net/)
 - [Moq](https://github.com/moq/moq4) for Mocking
+
+##### Entity-Framework Related
+
 - **DO NOT** use the [in-memory db](https://docs.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=dotnet-core-cli) for integration testing
 - You **CAN NOT** mock the [DBContext](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext?view=entity-framework-6.2.0) class in EF, so don't try
 
 #### Java Testing
 
 <!-- Sam add Java Testing Frameworks/Libraries here-->
+<!-- JUnit, Mockito??? -->
 
 #### Front-End Testing
 
@@ -182,10 +190,10 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 
 ## OO Programming
 
-- [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) :blue_heart:
-- [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) :blue_heart:
-- [Abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) :blue_heart:
-- [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) :black_heart:
+- [Encapsulation](<https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>) :blue_heart:
+- [Inheritance](<https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>) :blue_heart:
+- [Abstraction](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>) :blue_heart:
+- [Polymorphism](<https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>) :black_heart:
 - [Access Modifiers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers) :green_heart:
 - [Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface) :green_heart:
 - [Abstract & Sealed](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members) :green_heart:
@@ -213,6 +221,8 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 
 ## Data-Access
 
+### Core
+
 - [SQL](https://en.wikipedia.org/wiki/SQL) :blue_heart: - “Never memorize what you can look up in books” (The sames goes for RegEx)
 - [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity) :blue_heart: - Just know the history/usage
 
@@ -230,6 +240,24 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 ### Java Data Access
 
 <!-- Sam add Java Data Access here-->
+<!-- OracleDB? Hibernate, Java Data Access Tools -->
+
+### Types of Databases
+
+Know when to use each database, and don't force a type of technology fit another model.
+
+#### Relational
+
+1. SQL Server
+2. PostgreSQL
+3. MySQL
+4. SQLite
+
+#### Other
+
+1. Mongo - Document
+2. Neo4j - Graph
+3. Redis - Key/Value
 
 ## Patterns
 
