@@ -375,10 +375,10 @@ General Order:
 - Six Services to start out with
 - [App Service](https://azure.microsoft.com/en-us/services/app-service/) - ASP.NET/Node/API
 - [SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/#overview) - Standard SQL Server Database
-- [Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - General storage
+- [Azure Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#sample-scenarios-for-azure-storage-services) - Blobs/Files/Queues/Tables
 - [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - One off/Once-A-Day
 - [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Build Distributed Apps - use with [NServiceBus](https://particular.net/nservicebus)
-- [Azure Analytics](https://azure.microsoft.com/en-us/services/analysis-services/#overview) - Stay in the Know
+- [Azure AppInsights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - Stay in the Know
 
 ### AWS
 
