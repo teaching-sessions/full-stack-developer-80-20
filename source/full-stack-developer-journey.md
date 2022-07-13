@@ -10,7 +10,7 @@ The problem is figuring out what that 20% is.
 
 ## How this talk is Structured
 
-Everything in this talk is *mostly* "personal opinion", please don't take it as an absolute.
+Everything in this talk is _mostly_ "personal opinion", please don't take it as an absolute.
 
 > Pirate Code - They're more like guidelines
 
@@ -222,6 +222,30 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 - Understand what the [static](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static) keyword does
 - Know when, where, why to use it
 - Scoped to object level, not instance level :black_heart:
+
+## Font-End Technologies
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) :blue_heart:
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) :blue_heart:
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) :blue_heart:
+- [Sass](https://sass-lang.com/) :green_heart:
+- [ES5 & 6](https://github.com/getify/You-Dont-Know-JS) :green_heart: - You Don't Know JS E-Book
+- [TypeScript](https://www.typescriptlang.org/) :green_heart: - TypeScript
+
+### .NET Front-End
+
+- [Fundamental Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-6.0&tabs=windows) :yellow_heart:
+- [Razor Syntax](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-6.0) :yellow_heart:
+- [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/built-in/?view=aspnetcore-6.0) :yellow_heart:
+- [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio) :heart: - MVVM Approach
+- [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0) :heart: - MVC Approach
+- [Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-6.0) :heart: - Component Approach
+
+### Java Front-End
+
+<!-- Sam insert in here-->
+
+### Node Front-End
 
 ## Data-Access
 
