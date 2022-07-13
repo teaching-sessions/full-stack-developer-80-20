@@ -103,14 +103,18 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 
 ### Java
 
-<!-- To Add -->
+<!-- Sam add Java Environment/Project needs here -->
 
 ### Linters & Formatters
 
-#### Back-End Based
+#### .NET Back-End Based
 
 - [.NET Analyzers](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview)
 - [Style Cop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
+
+#### Java Back-End Based
+
+<!-- Sam add Java Linters/Formatters here -->
 
 #### Front-End
 
@@ -132,6 +136,10 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 - [Moq](https://github.com/moq/moq4) for Mocking
 - **DO NOT** use the [in-memory db](https://docs.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=dotnet-core-cli) for integration testing
 - You **CAN NOT** mock the [DBContext](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext?view=entity-framework-6.2.0) class in EF, so don't try
+
+#### Java Testing
+
+<!-- Sam add Java Testing Frameworks/Libraries here-->
 
 #### Front-End Testing
 
@@ -221,7 +229,7 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 
 ### Java Data Access
 
-
+<!-- Sam add Java Data Access here-->
 
 ## Patterns
 
@@ -291,6 +299,10 @@ General Order:
 
 - [C# In Depth](https://www.amazon.com/C-Depth-Jon-Skeet/dp/1617294535/ref=sr_1_1?crid=RJ2G41D5Y9Y9&keywords=c+in+depth&qid=1656870028&sprefix=c%23+in+depth%2Caps%2C192&sr=8-1)
 - [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-Developer-Best-Practices-dp-0136891446/dp/0136891446/ref=dp_ob_title_bk)
+
+### Java
+
+<!-- Sam add any Java books here -->
 
 ### DDD Books
 
