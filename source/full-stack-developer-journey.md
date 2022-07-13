@@ -63,7 +63,7 @@ It may only apply to 1% of what we do, but that 1% is important.
 
 Concepts that go the distance:
 
-You don't need to memorize is, just be comfortable with the conceptual knowledge.
+You don't need to memorize this, just be comfortable with the conceptual knowledge.
 
 [Base 2/Binary](https://en.wikipedia.org/wiki/Binary_number) - Why does an int only go to ~2 million?
 
@@ -94,10 +94,14 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 ## Environment & Tooling
 
 - Know your IDE inside and out, Visual Studio/IntelliJ/VSCode
-- Know all the [important keywords/shortcuts](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
+- Know all the important keywords/shortcuts: 
+  - [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
+  - [Intellij IDEA](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
 - [Code Snippets](https://docs.microsoft.com/en-us/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022) (I.E. ctor + tab = constructor)
 - [ReSharper](https://www.jetbrains.com/resharper/)
-- [VSCode Plugins](https://marketplace.visualstudio.com/VSCode)
+- Plugins
+  - [VSCode Plugins](https://marketplace.visualstudio.com/VSCode)
+  - [Intellij IDEA Plugins](https://plugins.jetbrains.com/)
 
 ### .NET
 
@@ -112,6 +116,22 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 <!-- Sam add Java Environment/Project needs here -->
 <!-- To Add -->
 <!-- Maven, Gradle, Ant, Build Tools? -->
+- IDE
+  - [Intellij IDEA](https://www.jetbrains.com/idea/) - Both the CE and Ultimate are very good
+  - [Eclipse](https://www.eclipse.org/downloads/packages/)
+
+- Build & Dependency Management
+  - [Maven](https://maven.apache.org/)
+  - [Gradle](https://gradle.org/)
+
+- CI/CD
+  - [Jenkins](https://www.jenkins.io/)
+
+- Logging
+  - [SLF4J](https://www.slf4j.org/)
+  - [Logback](https://logback.qos.ch/)
+  - [Log4j](https://logging.apache.org/log4j/2.x/)
+
 
 ### Linters & Formatters
 
@@ -123,6 +143,10 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 #### Java Back-End Based
 
 <!-- Sam add Java Linters/Formatters here -->
+- Checkstyle
+  - [Maven Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
+  - [Gradle Plugin](https://docs.gradle.org/current/userguide/checkstyle_plugin.html)
+  - [VS Code Plugin](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle) - For the intrepid developer using VS Code to write Java 
 
 #### Front-End
 
@@ -152,6 +176,10 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 <!-- Sam add Java Testing Frameworks/Libraries here-->
 <!-- JUnit, Mockito??? -->
+- [JUnit](https://junit.org/junit5/)
+- [Mockito](https://site.mockito.org/) - Allows BDD (*given, when, then* style of testing)
+- [AssertJ](https://joel-costigliola.github.io/assertj/) - Provides easy to use and readable assertions with more functionality than JUnit assertions
+
 
 #### Front-End Testing
 
@@ -223,7 +251,8 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 - Know when, where, why to use it
 - Scoped to object level, not instance level :black_heart:
 
-## Font-End Technologies
+
+## Front-End Technologies
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) :blue_heart:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) :blue_heart:
@@ -244,6 +273,11 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 ### Java Front-End
 
 <!-- Sam insert in here-->
+- [Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html) - MVC
+- [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) - Reactive web apps  
+- [Thymeleaf](https://www.thymeleaf.org/) - Server-side rendered templates
+- [JavaFX](https://openjfx.io/) - Here be dragons. Seriously, use real [Front-End Technologies](#front-end-technologies)
+
 
 ### Node Front-End
 
@@ -269,6 +303,14 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 <!-- Sam add Java Data Access here-->
 <!-- OracleDB? Hibernate, Java Data Access Tools -->
+- [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) - Requires you to manually translate from code to relational tables and back again. More "low-level" than JPA.
+- [JPA](https://en.wikipedia.org/wiki/Jakarta_Persistence) - Unlike JDBC, you define your persistence rules in the realm of Java code and objects and therefore don't have to "think relationally".  
+Some popular JPA implementations:
+  - [Hibernate](https://hibernate.org/) - One of the earliest ORM libraries for relational databases. 
+  - [EclipseLink](https://www.eclipse.org/eclipselink/) - JPA for SQL and NoSQL
+- [Spring Data](https://spring.io/projects/spring-data) - everything you need to implement a data access layer
+
+
 
 ### Types of Databases
 
@@ -279,7 +321,9 @@ Know when to use each database, and don't force a type of technology fit another
 1. SQL Server
 2. PostgreSQL
 3. MySQL
-4. SQLite
+4. MariaDB
+5. SQLite
+6. Oracle
 
 #### Other
 
@@ -372,7 +416,7 @@ General Order:
 
 ### Azure
 
-- Six Services to start out with
+Six Services to start out with:
 - [App Service](https://azure.microsoft.com/en-us/services/app-service/) - ASP.NET/Node/API
 - [SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/#overview) - Standard SQL Server Database
 - [Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - General storage
@@ -383,6 +427,13 @@ General Order:
 ### AWS
 
 <!-- Sam maybe add?-->
+AWS offers over 200 services. Some popular services to start out with:
+- [Amazon EC2 (Elastic Compute Cloud)](https://aws.amazon.com/ec2/) - Scalable compute platform
+- [RDS (Relational Database Service)](https://aws.amazon.com/rds/) - Managed RDBMS service
+- [S3 (Simple Storage Service)](https://aws.amazon.com/s3/) - Object storage
+- [Lambda](https://aws.amazon.com/lambda/) - Serverless, event-driven compute
+- [SQS (Simple Queue Service)](https://aws.amazon.com/sqs/) - Managed message queueing service
+- [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - Service for deploying and scaling web applications
 
 ## Libraries/Frameworks that pay the bills
 
@@ -399,6 +450,13 @@ General Order:
 ### Java Libraries
 
 <!-- Sam add recommended/highly useful libraries here -->
+- All libraries mentioned under [Java Testing](#java-testing)
+- [Apache Commons](https://commons.apache.org/) - A Swiss Army Knife. Extends many of the core libraries.
+- [Guava](https://github.com/google/guava) - Google library that adds new collection types, utilities for concurrency, graph library, functional programming, and much more.
+- [Jackson](https://github.com/FasterXML/jackson) - Data processing tools for Java, most notably JSON
+- [SLF4J](https://www.slf4j.org/) - good logging is an essential part of production-grade software
+
+
 
 ## Recommended Books
 
@@ -415,6 +473,7 @@ General Order:
 ### Java
 
 <!-- Sam add any Java books here -->
+- [Spring in Action](https://www.manning.com/books/spring-in-action-sixth-edition)
 
 ### DDD Books
 
