@@ -10,16 +10,18 @@ The problem is figuring out what that 20% is.
 
 ## How this talk is Structured
 
-Everything in this talk is "personal opinion", please don't take it as an absolute.
+Everything in this talk is *mostly* "personal opinion", please don't take it as an absolute.
 
 > Pirate Code - They're more like guidelines
+
+![pirate](https://media.giphy.com/media/uXUmaREltwja1dEqXi/giphy.gif)
 
 Lists are in order:
 
 :blue_heart: - Computer Science concept/foundational
 :green_heart: - Language Paradigm/entry
 :yellow_heart: - Pattern/intermediate
-:heart: - Library/Framework
+:heart: - Library/Framework/advanced
 :black_heart: - Key Concept
 
 Think of the topics given to you today as a 1, 3, 5, 10 year plan. Don't get overwhelmed.
@@ -30,7 +32,7 @@ When have I reached the point when I am competent in a subject/topic?
 
 When you can explain/teach it to someone else without outside help.
 
-## 10 Commandments for any Developer, Number 8 Will Shock you
+## 10 Commandments for any Developer, Number 8 Will Shock You
 
 1. Keep learning
 2. Keep re-learning, you will forget
@@ -86,6 +88,8 @@ You don't need to memorize is, just be comfortable with the conceptual knowledge
 [Basic Data Structures](https://en.wikipedia.org/wiki/Data_structure) - Stack vs Queue vs Array vs Vector?
 
 #### Don't memorize algorithms or data structures, and if any job interviewer ask you to create a linked-list or stack by hand you don't want that job
+
+More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby?view=net-6.0) uses [QuickSort](https://en.wikipedia.org/wiki/Quicksort) and QuickSort is [pretty fast](https://www.bigocheatsheet.com/). <- Nice BigO cheat sheet
 
 ## Environment & Tooling
 
@@ -315,6 +319,61 @@ General Order:
 - You don't have to use everything in DDD, its a buffet lunch
 - DDD does not imply Micro-services, Docker, Kubernetes, EventSourcing, CQRS, and the same goes for most of those topics
 - Bound Contexts (Sales vs Marketing vs Inventory) :black_heart:
+
+## Architecture
+
+- This is a large topic. You will gain a lot of knowledge overtime.
+- The biggest takeaway should be that your architecture needs to enable your code to be easily testable. (shocker)
+
+- [Project Dependencies](https://docs.microsoft.com/en-us/visualstudio/modeling/create-layer-diagrams-from-your-code?view=vs-2022) :blue_heart: - Implies you are very comfortable with Solution/Projects/NuGet
+- [SOLID Principles](https://en.wikipedia.org/wiki/SOLID) :blue_heart:
+- Interfaces :black_heart: - Both literal and none literal
+- [Simple .NET Architecture Intro](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) :green_heart:
+- [Overview of Layed, Onion, Clean, P&A](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/) :green_heart:
+- [Great Uncle Bob Video](https://www.youtube.com/watch?v=WpkDN78P884) :green_heart:
+- Domain Driven Design :yellow_heart:
+- Bound Contexts :black_heart:
+- Cloud Technologies & CI/CD/DevOps :yellow_heart:
+- Distributed Systems :yellow_heart: (Again this is a very large topic and encompasses a lot of cross knowledge/topics)
+- Micro-Services :heart:
+
+## Cloud Technologies
+
+- Best way to learn how the cloud works is to just start creating/configuring services.
+- Take a basic app and learn how to automate everything.
+
+- CI/CD fundamentals :blue_heart: (GitHub Actions/Azure DevOps)
+- Pipelines :blue_heart: (Have fun with yaml)
+
+### Azure
+
+- Six Services to start out with
+- [App Service](https://azure.microsoft.com/en-us/services/app-service/) - ASP.NET/Node/API
+- [SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/#overview) - Standard SQL Server Database
+- [Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) - General storage
+- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) - One off/Once-A-Day
+- [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/) - Build Distributed Apps - use with [NServiceBus](https://particular.net/nservicebus)
+- [Azure Analytics](https://azure.microsoft.com/en-us/services/analysis-services/#overview) - Stay in the Know
+
+### AWS
+
+<!-- Sam maybe add?-->
+
+## Libraries/Frameworks that pay the bills
+
+### .NET Libraries
+
+- [Fluent Validation](https://docs.fluentvalidation.net/en/latest/) - Domain Validation
+- [NodaTime](https://nodatime.org/) - Fully featured Date/Time library
+- [MediatR](https://github.com/jbogard/MediatR) - Mediator/Events for .NET
+- [Serilog](https://serilog.net/) - Logging
+- [AutoMapper](https://automapper.org/) - Not really a fan but can work in certain situations
+- [Swashbuckle/Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio) - Now default in .NET Core
+- [Awesome .NET](https://github.com/quozd/awesome-dotnet) - List of curated .NET libraries
+
+### Java Libraries
+
+<!-- Sam add recommended/highly useful libraries here -->
 
 ## Recommended Books
 
