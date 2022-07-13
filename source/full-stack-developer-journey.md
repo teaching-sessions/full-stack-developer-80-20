@@ -217,7 +217,7 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 - Polymorphism, polymorphism, polymorphism
 
-## Honorable Mention - Static
+## Static
 
 - Understand what the [static](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static) keyword does
 - Know when, where, why to use it
@@ -293,6 +293,7 @@ Know when to use each database, and don't force a type of technology fit another
 
 - Patterns are not silver bullets
 - Every nail do not require a hammer
+- Knowing when and where to use a pattern is more important
 - No such thing as an anti-pattern, they're all situational
 - Most patterns are just polymorphism or callbacks on crack cocaine :black_heart:
 - A lot of libraries/frameworks exist to do the work for you
@@ -336,7 +337,7 @@ General Order:
 
 - DDD is just a bunch of patterns bundled together
 - Most DDD patterns are just a fancier, crank cocain-ier versions of their Gof/Enterprise counterparts (I.E. What if I could make a object into a value type)
-- DDD is the OG micro-services **don't touch micro-services until you know DDD inside and out**
+- DDD is the OG micro-services. **Don't touch micro-services until you know DDD inside and out**
 - Purpose of DDD is to distill a complex domain into easy to understand concepts
 - DDD is **not easy**, don't get frustrated
 - DDD is not zero-sum, or mutually exclusive
