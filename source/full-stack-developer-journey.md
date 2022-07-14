@@ -355,7 +355,7 @@ General Order:
 
 ###### Your [DI Framework](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) does the heavy lifting
 
-- [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern)
+- [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern) - Both method and class
 - [Builder](https://en.wikipedia.org/wiki/Builder_pattern)
 
 ##### Structural
