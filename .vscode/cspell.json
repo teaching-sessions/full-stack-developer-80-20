@@ -1,9 +1,16 @@
 {
   "words": [
+    "Blazor",
     "CQRS",
     "Creational",
     "Dapr",
+    "Intelli",
+    "JDBC",
     "Kubernetes",
-    "LINQ"
+    "LINQ",
+    "Mockito",
+    "MVVM",
+    "ODBC",
+    "Thymeleaf"
   ]
 }

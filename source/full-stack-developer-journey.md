@@ -94,14 +94,14 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 ## Environment & Tooling
 
 - Know your IDE inside and out, Visual Studio/IntelliJ/VSCode
-- Know all the important keywords/shortcuts: 
+- Know all the important keywords/shortcuts:
   - [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022)
-  - [Intellij IDEA](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
+  - [IntelliJ IDEA](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
 - [Code Snippets](https://docs.microsoft.com/en-us/visualstudio/ide/visual-csharp-code-snippets?view=vs-2022) (I.E. ctor + tab = constructor)
 - [ReSharper](https://www.jetbrains.com/resharper/)
 - Plugins
   - [VSCode Plugins](https://marketplace.visualstudio.com/VSCode)
-  - [Intellij IDEA Plugins](https://plugins.jetbrains.com/)
+  - [IntelliJ IDEA Plugins](https://plugins.jetbrains.com/)
 
 ### .NET
 
@@ -114,21 +114,23 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 ### Java
 
 - IDE
+
   - [Intellij IDEA](https://www.jetbrains.com/idea/) - Both the CE and Ultimate are very good
   - [Eclipse](https://www.eclipse.org/downloads/packages/)
 
 - Build & Dependency Management
+
   - [Maven](https://maven.apache.org/)
   - [Gradle](https://gradle.org/)
 
 - CI/CD
+
   - [Jenkins](https://www.jenkins.io/)
 
 - Logging
   - [SLF4J](https://www.slf4j.org/)
   - [Logback](https://logback.qos.ch/)
   - [Log4j](https://logging.apache.org/log4j/2.x/)
-
 
 ### Linters & Formatters
 
@@ -142,7 +144,7 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 - Checkstyle
   - [Maven Plugin](https://maven.apache.org/plugins/maven-checkstyle-plugin/)
   - [Gradle Plugin](https://docs.gradle.org/current/userguide/checkstyle_plugin.html)
-  - [VS Code Plugin](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle) - For the intrepid developer using VS Code to write Java 
+  - [VS Code Plugin](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle) - For the intrepid developer using VS Code to write Java
 
 #### Front-End
 
@@ -171,9 +173,8 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 #### Java Testing
 
 - [JUnit](https://junit.org/junit5/)
-- [Mockito](https://site.mockito.org/) - Allows BDD (*given, when, then* style of testing)
+- [Mockito](https://site.mockito.org/) - Allows BDD (_given, when, then_ style of testing)
 - [AssertJ](https://joel-costigliola.github.io/assertj/) - Provides easy to use and readable assertions with more functionality than JUnit assertions
-
 
 #### Front-End Testing
 
@@ -245,7 +246,6 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 - Know when, where, why to use it
 - Scoped to object level, not instance level :black_heart:
 
-
 ## Front-End Technologies
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) :blue_heart:
@@ -254,6 +254,7 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 - [Sass](https://sass-lang.com/) :green_heart:
 - [ES5 & 6](https://github.com/getify/You-Dont-Know-JS) :green_heart: - You Don't Know JS E-Book
 - [TypeScript](https://www.typescriptlang.org/) :green_heart: - TypeScript
+- [jQuery](https://jquery.com/) :yellow_heart: - Old but still used a lot
 
 ### .NET Front-End
 
@@ -266,13 +267,20 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 ### Java Front-End
 
-- [Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html) - MVC
-- [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) - Reactive web apps  
-- [Thymeleaf](https://www.thymeleaf.org/) - Server-side rendered templates
-- [JavaFX](https://openjfx.io/) - Here be dragons. Seriously, use real [Front-End Technologies](#front-end-technologies)
-
+- [Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html) :heart: - MVC
+- [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) :heart: - Reactive web apps
+- [Thymeleaf](https://www.thymeleaf.org/) :heart: - Server-side rendered templates
+- [JavaFX](https://openjfx.io/) :heart: - Here be dragons. Seriously, use real [Front-End Technologies](#front-end-technologies)
 
 ### Node Front-End
+
+- [Thinking In Components](https://reactjs.org/docs/thinking-in-react.html) :green_heart:
+- [Understanding State](https://reactjs.org/docs/lifting-state-up.html) :green_heart:
+- [NPM Quick Guide](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/) :yellow_heart:
+- [RxJS](https://rxjs.dev/) :yellow_heart: - Angular Pre-requisite
+- [Angular](https://angular.io/) :heart:
+- [React](https://reactjs.org/) :heart:
+- [Vue](https://vuejs.org/) :heart:
 
 ## Data-Access
 
@@ -288,24 +296,22 @@ More Important to Know - LINQ [OrderBy](https://docs.microsoft.com/en-us/dotnet/
 
 - [LINQ to SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/) **is depreciated**
 - [OLE DB](https://en.wikipedia.org/wiki/OLE_DB) - :green_heart: - Again just read and understand
-- [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) :heart:
+- [ADO.NET](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/) :yellow_heart:
 - [Dapper](https://github.com/DapperLib/Dapper) :heart:
 - [Entity Framework](https://docs.microsoft.com/en-us/aspnet/entity-framework) :heart:
 
 ### Java Data Access
 
-- [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) - Requires you to manually translate from code to relational tables and back again. More "low-level" than JPA.
-- [JPA](https://en.wikipedia.org/wiki/Jakarta_Persistence) - Unlike JDBC, you define your persistence rules in the realm of Java code and objects and therefore don't have to "think relationally".  
-Some popular JPA implementations:
-  - [Hibernate](https://hibernate.org/) - One of the earliest ORM libraries for relational databases. 
-  - [EclipseLink](https://www.eclipse.org/eclipselink/) - JPA for SQL and NoSQL
-- [Spring Data](https://spring.io/projects/spring-data) - everything you need to implement a data access layer
-
-
+- [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) :yellow_heart: - Requires you to manually translate from code to relational tables and back again. More "low-level" than JPA.
+- [JPA](https://en.wikipedia.org/wiki/Jakarta_Persistence) :heart: - Unlike JDBC, you define your persistence rules in the realm of Java code and objects and therefore don't have to "think relationally".  
+  Some popular JPA implementations:
+  - [Hibernate](https://hibernate.org/) :heart: - One of the earliest ORM libraries for relational databases.
+  - [EclipseLink](https://www.eclipse.org/eclipselink/) :heart: - JPA for SQL and NoSQL
+- [Spring Data](https://spring.io/projects/spring-data) :heart: - everything you need to implement a data access layer
 
 ### Types of Databases
 
-Know when to use each database, and don't force a type of technology fit another model.
+Know when to use each database, and don't force a type of technology to fit another model.
 
 #### Relational
 
@@ -400,6 +406,7 @@ General Order:
 ## Cloud Technologies
 
 - Best way to learn how the cloud works is to just start creating/configuring services.
+- Services are supposed to be disposable. Deleting and restarting is encouraged.
 - Take a basic app and learn how to automate everything.
 
 - CI/CD fundamentals :blue_heart: (GitHub Actions/Azure DevOps)
@@ -408,6 +415,7 @@ General Order:
 ### Azure
 
 Six Services to start out with:
+
 - [App Service](https://azure.microsoft.com/en-us/services/app-service/) - ASP.NET/Node/API
 - [SQL Database](https://azure.microsoft.com/en-us/products/azure-sql/database/#overview) - Standard SQL Server Database
 - [Azure Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#sample-scenarios-for-azure-storage-services) - Blobs/Files/Queues/Tables
@@ -418,6 +426,7 @@ Six Services to start out with:
 ### AWS
 
 AWS offers over 200 services. Some popular services to start out with:
+
 - [Amazon EC2 (Elastic Compute Cloud)](https://aws.amazon.com/ec2/) - Scalable compute platform
 - [RDS (Relational Database Service)](https://aws.amazon.com/rds/) - Managed RDBMS service
 - [S3 (Simple Storage Service)](https://aws.amazon.com/s3/) - Object storage
@@ -444,8 +453,6 @@ AWS offers over 200 services. Some popular services to start out with:
 - [Guava](https://github.com/google/guava) - Google library that adds new collection types, utilities for concurrency, graph library, functional programming, and much more.
 - [Jackson](https://github.com/FasterXML/jackson) - Data processing tools for Java, most notably JSON
 - [SLF4J](https://www.slf4j.org/) - good logging is an essential part of production-grade software
-
-
 
 ## Recommended Books
 
