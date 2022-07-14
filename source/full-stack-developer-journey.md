@@ -328,7 +328,7 @@ Know when to use each database, and don't force a type of technology to fit anot
 2. Neo4j - Graph
 3. Redis - Key/Value
 
-## Patterns
+## Patterns & Cloud & Architecture
 
 ### Common Pitfalls
 
@@ -393,8 +393,9 @@ General Order:
 
 - [Project Dependencies](https://docs.microsoft.com/en-us/visualstudio/modeling/create-layer-diagrams-from-your-code?view=vs-2022) :blue_heart: - Implies you are very comfortable with Solution/Projects/NuGet
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID) :blue_heart:
+- [Eleven Characteristics](https://hackernoon.com/the-eleven-defining-characteristics-of-modern-software-architecture-o8113ehc) :blue_heart:
 - Interfaces :black_heart: - Both literal and none literal
-- [Simple .NET Architecture Intro](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) :green_heart:
+- [Simple .NET Architecture Intro](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) :green_heart: - Different styles overview
 - [Overview of Layed, Onion, Clean, P&A](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/) :green_heart:
 - [Great Uncle Bob Video](https://www.youtube.com/watch?v=WpkDN78P884) :green_heart:
 - Domain Driven Design :yellow_heart:
@@ -456,6 +457,10 @@ AWS offers over 200 services. Some popular services to start out with:
 
 ## Recommended Books
 
+### General
+
+- [Clean Code](https://www.amazon.com/gp/product/B001GSTOAM?ref_=dbs_m_mng_rwt_calw_tkin_5&storeType=ebooks&qid=1657813300&sr=1-1) - Any Bob Martin book is a good purchase
+
 ### Pattern Based
 
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199/ref=sr_1_1?keywords=a+pattern+language+christopher+alexander&qid=1656870154&s=books&sprefix=a+patt%2Cstripbooks%2C103&sr=1-1) - Building Architecture (Optional)
@@ -463,10 +468,10 @@ AWS offers over 200 services. Some popular services to start out with:
 
 ### CSharp
 
-- [C# In Depth](https://www.amazon.com/C-Depth-Jon-Skeet/dp/1617294535/ref=sr_1_1?crid=RJ2G41D5Y9Y9&keywords=c+in+depth&qid=1656870028&sprefix=c%23+in+depth%2Caps%2C192&sr=8-1)
-- [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-Developer-Best-Practices-dp-0136891446/dp/0136891446/ref=dp_ob_title_bk)
+- [C# In Depth](https://www.amazon.com/C-Depth-Jon-Skeet/dp/1617294535/ref=sr_1_1?crid=RJ2G41D5Y9Y9&keywords=c+in+depth&qid=1656870028&sprefix=c%23+in+depth%2Caps%2C192&sr=8-1) - 4th Edition
+- [Adaptive Code via C#](https://www.amazon.com/Adaptive-Code-Developer-Best-Practices-dp-0136891446/dp/0136891446/ref=dp_ob_title_bk) - 3rd Edition in pre-order
 
-### Java
+### Java Books
 
 - [Spring in Action](https://www.manning.com/books/spring-in-action-sixth-edition)
 
@@ -475,7 +480,7 @@ AWS offers over 200 services. Some popular services to start out with:
 - [Original Blue Book](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/ref=sr_1_6?crid=1YCV48H6KQOR5&keywords=ddd&qid=1656870336&s=books&sprefix=ddd%2Cstripbooks%2C99&sr=1-6) - Original DDD book, I can't give you my opinion on it
 - [Other DDD Book](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709/ref=sr_1_6?keywords=domain+driven+design&qid=1656870402&s=books&sprefix=domain+dri%2Cstripbooks%2C82&sr=1-6)
 
-### Architecture
+### Architecture Books
 
 - [Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=pd_bxgy_img_sccl_1/146-6357958-3857264?pd_rd_w=RwhPI&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=VX8R66M5WF7NTFFEMW3Z&pd_rd_wg=slM2J&pd_rd_r=bcd73204-76bb-4629-ae6a-2673b4c2b16f&pd_rd_i=0134494164&psc=1) - Or just [watch the video](https://www.youtube.com/watch?v=WpkDN78P884)
 
