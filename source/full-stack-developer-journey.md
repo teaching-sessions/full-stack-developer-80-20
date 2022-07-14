@@ -476,6 +476,7 @@ AWS offers over 200 services. Some popular services to start out with:
 ### Java Books
 
 - [Spring in Action](https://www.manning.com/books/spring-in-action-sixth-edition)
+- [Effective Java](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
 
 ### DDD Books
 
