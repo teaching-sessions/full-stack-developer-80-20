@@ -394,6 +394,7 @@ General Order:
 - [Project Dependencies](https://docs.microsoft.com/en-us/visualstudio/modeling/create-layer-diagrams-from-your-code?view=vs-2022) :blue_heart: - Implies you are very comfortable with Solution/Projects/NuGet
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID) :blue_heart:
 - [Eleven Characteristics](https://hackernoon.com/the-eleven-defining-characteristics-of-modern-software-architecture-o8113ehc) :blue_heart:
+- [Cap Theorem](https://en.wikipedia.org/wiki/CAP_theorem) :blue_heart: - Tradeoffs for distributed systems
 - Interfaces :black_heart: - Both literal and none literal
 - [Simple .NET Architecture Intro](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures) :green_heart: - Different styles overview
 - [Overview of Layed, Onion, Clean, P&A](https://blog.ploeh.dk/2013/12/03/layers-onions-ports-adapters-its-all-the-same/) :green_heart:
@@ -402,7 +403,7 @@ General Order:
 - Bound Contexts :black_heart:
 - Cloud Technologies & CI/CD/DevOps :yellow_heart:
 - Distributed Systems :yellow_heart: (Again this is a very large topic and encompasses a lot of cross knowledge/topics)
-- Micro-Services :heart:
+- [Micro-Services](https://microservices.io/index.html) :heart:
 
 ## Cloud Technologies
 
