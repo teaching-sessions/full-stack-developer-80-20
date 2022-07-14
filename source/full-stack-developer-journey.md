@@ -348,6 +348,7 @@ General Order:
 2. [Enterprise Application](https://www.martinfowler.com/eaaCatalog/)
 3. [Domain Driven Design](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
 4. [Enterprise Integration](https://www.enterpriseintegrationpatterns.com/)
+5. [Cloud Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 #### Gof
 
